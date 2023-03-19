@@ -1,0 +1,83 @@
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    margin-top: 70px;
+    min-width: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: #2987be;
+    border-radius: 0px 25px 15px 25px;
+    box-shadow: 10px -8px 32px -6px rgba(0, 0, 0, 1);
+}
+
+.value {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.label {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #1059b8;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.btn-start {
+        width: 250px;
+        height: 60px;        
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        margin-top: 60px;
+        border: none;
+        background-color: rgba(50, 198, 130, 0.7);
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        border-radius: 20px;
+        cursor: pointer;
+}
+
+.btn-start:disabled {
+    width: 250px;
+    height: 60px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    border: none;
+    background-color: hsla(0, 37%, 67%, 0.799);
+    align-items: center;
+    color: hwb(0 100% 0% / 0.403);
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: default;
+}
+
+#datetime-picker {
+    width: auto;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    font-size: 34px;
+    font-weight: 600;
+    background-color: rgba(94, 180, 255, 0.2);
+    border-radius: 20px;
+
+}
